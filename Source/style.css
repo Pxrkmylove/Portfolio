@@ -144,7 +144,7 @@ html {
 .my-self {
     position: absolute;
     width: 50%;
-    height: 138%;
+    height: 147%;
     border-right: 2px solid rgb(200, 200, 200);
 }
 
@@ -192,8 +192,7 @@ ol {
     }
 }
 
-
-/* @keyframes slide-top {
+@keyframes slide-top {
     from {
         margin-top: -100%;
     }
@@ -209,4 +208,4 @@ ol {
     to {
         margin-bottom: 0%;
     }
-} */
+}
