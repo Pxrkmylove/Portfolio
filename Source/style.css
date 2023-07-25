@@ -202,7 +202,11 @@ ol {
         font-size: 9px;
     }
     .result-box {
+        top: 160px;
         width: 90%;
+    }
+    .performance {
+        height: 90%;
     }
 }
 
