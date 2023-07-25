@@ -149,6 +149,17 @@ html {
     overflow-x: hidden;
 }
 
+.experience-page {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 98%;
+    height: 98%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 .my-self {
     position: absolute;
     width: 50%;
@@ -200,6 +211,18 @@ ul {
 
 ol {
     margin-left: 30px;
+}
+
+.box-show-experience {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgb(95, 95, 95);
 }
 
 @media (max-width: 1366px) {
