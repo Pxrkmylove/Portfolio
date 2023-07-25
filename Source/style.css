@@ -183,6 +183,15 @@ ol {
     margin-left: 30px;
 }
 
+@media (max-width: 768px) {
+    .my-self {
+        font-size: 9px;
+    }
+    .my-skill {
+        font-size: 9px;
+    }
+}
+
 
 /* @keyframes slide-top {
     from {
