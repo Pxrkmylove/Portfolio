@@ -146,6 +146,7 @@ html {
     width: 50%;
     height: 147%;
     border-right: 2px solid rgb(200, 200, 200);
+    animation: 2s slide-left;
 }
 
 .my-skill {
@@ -153,6 +154,7 @@ html {
     right: 0;
     width: 50%;
     height: 100%;
+    animation: 2s slide-right;
 }
 
 .my-self h2,
@@ -207,5 +209,23 @@ ol {
     }
     to {
         margin-bottom: 0%;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        margin-right: -100%;
+    }
+    to {
+        margin-right: 0%;
     }
 }
