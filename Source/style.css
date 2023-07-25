@@ -195,10 +195,11 @@ ol {
 
 @media (max-width: 768px) {
     .my-self {
-        font-size: 12px;
+        font-size: 10px;
+        height: 130%;
     }
     .my-skill {
-        font-size: 12px;
+        font-size: 9px;
     }
     .result-box {
         width: 90%;
