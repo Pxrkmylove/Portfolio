@@ -167,13 +167,13 @@ html {
     transform: translate(-50%, -50%);
     width: 98%;
     height: 98%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #canva {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 
 .my-self {
