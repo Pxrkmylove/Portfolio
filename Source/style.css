@@ -152,9 +152,19 @@ html {
 .my-self {
     position: absolute;
     width: 50%;
-    height: 147%;
-    border-right: 2px solid rgb(200, 200, 200);
+    height: 100%;
     animation: 2s slide-left;
+}
+
+.line-half {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 49%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: rgb(200, 200, 200);
 }
 
 .my-skill {
