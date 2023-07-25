@@ -130,6 +130,14 @@ html {
     background-color: #aeada9;
 }
 
+::selection {
+    background-color: rgba(109, 54, 149, 0.754);
+    /* กำหนดสีพื้นหลังเมื่อมีการเลือก */
+    color: rgb(255, 253, 253);
+    /* กำหนดสีตัวอักษรเมื่อมีการเลือก */
+    border-radius: 50px;
+}
+
 .overview-page {
     position: absolute;
     left: 50%;
@@ -187,10 +195,13 @@ ol {
 
 @media (max-width: 768px) {
     .my-self {
-        font-size: 9px;
+        font-size: 12px;
     }
     .my-skill {
-        font-size: 9px;
+        font-size: 12px;
+    }
+    .result-box {
+        width: 90%;
     }
 }
 
