@@ -9,6 +9,18 @@ $(document).ready(function() {
 
         Array.from(contents).forEach(elm => elm.classList.add('show'));
         document.getElementById(targetId).classList.remove('show')
+        if (targetId != 1) {
+            const lineHalfElements = document.querySelectorAll(".line-half");
+            lineHalfElements.forEach((element) => {
+                element.style.display = "none";
+            });
+        } else if (targetId == 1) {
+            const lineHalfElements = document.querySelectorAll(".line-half");
+            lineHalfElements.forEach((element) => {
+                element.style.display = "block";
+            });
+        }
+
     }))
 
     $('.box-click').on('click', function() {
