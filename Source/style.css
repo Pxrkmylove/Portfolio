@@ -60,7 +60,7 @@ html {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 60%;
+    width: 70%;
     height: 70%;
     top: 200px;
     border-radius: 10px;
@@ -203,10 +203,26 @@ ol {
     margin-left: 30px;
 }
 
+@media (max-width: 1366px) {
+    .my-self {
+        font-size: 20px;
+    }
+    .my-skill {
+        font-size: 20px;
+    }
+    .result-box {
+        top: 160px;
+        width: 90%;
+        height: 80%;
+    }
+    .performance {
+        height: 93%;
+    }
+}
+
 @media (max-width: 768px) {
     .my-self {
         font-size: 10px;
-        height: 130%;
     }
     .my-skill {
         font-size: 9px;
@@ -214,6 +230,7 @@ ol {
     .result-box {
         top: 160px;
         width: 90%;
+        height: 75%;
     }
     .performance {
         height: 90%;
