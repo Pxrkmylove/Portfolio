@@ -160,7 +160,7 @@ html {
     display: block !important;
     position: absolute;
     top: 0;
-    left: 49%;
+    left: 50%;
     transform: translateX(-50%);
     width: 2px;
     height: 100%;
