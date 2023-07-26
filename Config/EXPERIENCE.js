@@ -1,4 +1,4 @@
-const EXPERIENCE = [
+const experiences = [
 
     {
         Topic_EN: "VIP MENU",
