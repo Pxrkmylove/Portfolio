@@ -239,6 +239,7 @@ ol {
     border-radius: 10px;
     margin-top: 5px;
     background-color: rgb(95, 95, 95);
+    animation: 2s slide-left;
 }
 
 @media (max-width: 1366px) {
