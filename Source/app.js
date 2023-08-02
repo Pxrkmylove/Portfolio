@@ -84,7 +84,7 @@ let toggle = "sun";
 
 function darkmode() {
     const btnDarkLight = document.querySelector(".btn-dark-light");
-    const iconDark = `<p id="icon-dark"><i class="fa-regular fa-${toggle === "sun" ? "moon" : "sun"}" style="color: ${toggle === "sun" ? "#ffd60a" : "red"};"></i></p>`;
+    const iconDark = `<p id="icon-dark"><i class="fa-regular fa-${toggle === "sun" ? "moon" : "sun-bright"}" style="color: ${toggle === "sun" ? "#ffd60a" : "#ffd60a"};"></i></p>`;
 
     if (toggle === "sun") {
         btnDarkLight.innerHTML = "";
@@ -106,7 +106,7 @@ function darkmode() {
 
         toggle = "night";
     } else if (toggle === "night") {
-        btnDarkLight.style.backgroundColor = "rgb(217, 217, 217)";
+        btnDarkLight.style.backgroundColor = "rgb(123, 123, 123)";
         btnDarkLight.innerHTML = "";
         btnDarkLight.innerHTML = iconDark;
 
